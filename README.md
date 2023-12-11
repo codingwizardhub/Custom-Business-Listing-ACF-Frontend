@@ -11,3 +11,4 @@ function my_acf_google_map_api( $api ){<br/>
     return $api;<br/>
 }<br/>
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');<br/>
+5. Import the Frontend-ACF.json file into Frontend ACF (download frontend acf here: https://wordpress.org/plugins/acf-frontend-form-element/)
